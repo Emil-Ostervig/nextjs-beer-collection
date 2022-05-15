@@ -1,0 +1,31 @@
+.beerlist {
+
+  &__sort-row {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px solid var(--color-gray-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media(--viewport-sm-min){
+      background: red;
+    }
+  }
+
+
+  &__sort {
+    :global {
+      label {
+        margin-right: 0.5em;
+      }
+    }
+  }
+
+  &__filters {
+    margin-bottom: 1.5em;
+  }
+
+  &__count {
+    margin-bottom: 0;
+  }
+}

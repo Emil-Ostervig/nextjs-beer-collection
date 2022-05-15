@@ -1,0 +1,26 @@
+.beer-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-left: -10px;
+  margin-right: -10px;
+
+  &__item {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    /* PostCSS custom media seems be broken in this file for some reason */
+    @media(min-width: 480px) {
+      width: 50%;
+    }
+    @media(min-width: 768px){
+      width: 33%;
+    }
+    @media(min-width: 1024px){
+      width: 25%;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.beer-spec-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  &__item {
+    flex-grow: 0;
+    display: inline-flex;
+    overflow: hidden;
+    border-radius: 4px;
+    margin: 2px;
+  }
+  &__item-key {
+    padding: 3px 5px;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+  }
+  &__item-value {
+    padding: 3px 5px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+}

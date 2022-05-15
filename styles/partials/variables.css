@@ -1,0 +1,26 @@
+:root {
+  --color-blue-dark: #001524;
+  --color-blue: #15616D;
+  --color-sand: #FFECD1;
+  --color-orange: #FF7D00;
+  --color-red: #78290F;
+
+  --color-white: #ffffff;
+  --color-gray: #afafaf;
+  --color-gray-light: #c8c8c8;
+
+  --color-primary: var(--color-blue);
+  --color-secondary: var(--color-blue-dark);
+
+  --color-text: #3a3a3a;
+
+  --body-font: 'Montserrat', sans-serif;
+  --heading-font: 'Montserrat', sans-serif;
+}
+
+@custom-media --viewport-xl-min (min-width: 1600px);
+@custom-media --viewport-lg-min (min-width: 1366px);
+@custom-media --viewport-md-min (min-width: 1024px);
+@custom-media --viewport-sm-min (min-width: 768px);
+@custom-media --viewport-ms-min (min-width: 480px);
+@custom-media --viewport-xs-min (min-width: 0px);

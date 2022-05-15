@@ -1,0 +1,39 @@
+.single-beer {
+  
+  &__title{
+    font-weight: bold;
+  }
+
+  &__gallery {
+    width: 20%;
+    min-width: 150px;
+    flex-grow: 0;
+
+    :global img {
+      max-height: 500px;
+      max-width: 100%;
+
+    }
+  }
+
+  &__content {
+    flex-grow: 1;
+    width: 80%;
+    box-sizing: border-box;
+    padding-left: 40px;
+  }
+
+  &__title {
+    margin-bottom: 0.5em;
+  }
+
+
+  &__description {
+    max-width: 100%;
+    width: 500px;
+  }
+
+  :global .beer-spec-list {
+    margin-bottom: 0.5em;
+  }
+}

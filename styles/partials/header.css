@@ -1,0 +1,40 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  z-index: 99999;
+  height: 50px;
+  @media(--viewport-sm-min){
+    height: 60px;
+  }
+}
+
+.site-logo {
+  width: 210px;
+  height: 50px;
+  display: inline-flex;
+  align-items: flex-end;
+  box-sizing: border-box;
+  padding: 10px;
+  @media(--viewport-sm-min){
+    height: 60px;
+  }
+  &__image {
+    height: 100%;
+  }
+  &__tagline {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-left: 0.2em;
+    font-size: 18px;
+    line-height: 1.2em;
+    display: block;
+  }
+}

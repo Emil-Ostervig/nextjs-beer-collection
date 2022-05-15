@@ -1,16 +1,18 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+/* Base and variables */
+@import 'partials/reset.css';
+@import 'partials/typography.css';
+@import 'partials/variables.css';
+@import 'partials/base.css';
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+/* Header & footer */
+@import 'partials/header.css';
 
-* {
-  box-sizing: border-box;
-}
+/* UI elements */
+@import 'partials/forms.css';
+@import 'partials/buttons.css';
+
+/* Components */
+@import 'components/beerCard.css';
+@import 'components/beerSpecList.css';
+@import 'components/beerFilterForm.css';
+@import 'components/beerFilterItem.css';
