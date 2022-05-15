@@ -43,7 +43,7 @@ I realized quickly that I had enough new stuff going on with NextJs and React so
 The past couple of years I been writing exclusively BEM and mainly PostCSS, so this was my go-to stack. It seems there are some logical complications between CSS module for scoped component styling and how BEM is utilized while nesting. I chose to stick with it, but I'm very aware that it would be more optimal with JS-style object naming conventions, since they can be easily extracted from the import.
 For example:
 ```
-import styles from './style.css';
+import styles from './styles.module.css';
 className={styles.blockElement}
 ```
 Instead of
