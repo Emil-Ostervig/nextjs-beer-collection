@@ -1,0 +1,10 @@
+.add-beer {
+
+  &__feedback {
+
+  }
+
+  .beer-filter-form {
+    margin-bottom: 1.5em;
+  }
+}

@@ -1,0 +1,15 @@
+.site-footer {
+  background-color: var(--color-secondary);
+  color: #fff;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 40px 0;
+  margin-top: auto;
+}
+
+.site-footer-content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
